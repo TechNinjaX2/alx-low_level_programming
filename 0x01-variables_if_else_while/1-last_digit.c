@@ -14,8 +14,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	z = ((n%10))
-	for (;n>5;)
+	z = n%10;
+	for (;n>5;a++)
 		printf("Last digit of %d", n "is %d",z "and is greater than 5")
 	return (0);
 }
