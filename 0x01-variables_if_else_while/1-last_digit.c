@@ -11,11 +11,12 @@
 int main(void)
 {
 	int n;
+	int z;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	z = n%10;
-	for (;n>5;a++)
-		printf("Last digit of %d", n "is %d",z "and is greater than 5")
+	z = ("%d%10",n);
+	for (;n>5;)
+		printf("Last digit of %d is %d and is greater than 5\n",n,z)
 	return (0);
 }
