@@ -10,17 +10,22 @@
  */
 int main(void)
 {
-	int n;
-	int z;
+	int n,z;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	z = ("%d%10"n);
-	for (;n > 5;)
+	z = n%10;
+	for (;n > 5;){
 		printf("Last digit of %d is %d and is greater than 5\n",n,z);
-	for (;0 == 0;)
+		break;
+	}
+	for (;n==0;){
 		printf("Last digit of %d is %d and is 0",n,z);
-	for (;n<6,n=!0;)
+		break;
+	}
+	for (;n<0;){
 		printf("Last digit of %d is %d and is negative",n,z);
+		break;
+	}
 	return (0);
 }
