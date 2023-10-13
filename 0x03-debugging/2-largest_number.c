@@ -10,7 +10,7 @@
 
 int largest_number(int a, int b, int c)
 {
-	int largest;
+	int largest, a, b, c;
 
 	a = 972;
 	b = -98;
@@ -21,7 +21,7 @@ int largest_number(int a, int b, int c)
 		largest = a;
 		printf("%d is the largest number", largest);
 	}
-	else if (b > a && a > c)
+	else if (b > a && b > c)
 	{
 		largest = b;
 		printf("%d is the largest number", largest);
