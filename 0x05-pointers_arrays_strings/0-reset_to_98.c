@@ -1,16 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - change to 98
- *
+ * reset_to_98 - change to 98
+ * @n: pointer
  * Return: *n
  */
 void reset_to_98(int *n)
 {
-	int i = 98;
-
-	n = &i;
-	*n = i;
+	*n = 98;
 
 	return;
 }
