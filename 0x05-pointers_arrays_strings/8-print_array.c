@@ -17,8 +17,9 @@ void print_array(int *a, int n)
 	}
 	if (a[n + 1] != '\0')
 	{
-		putchar(a[i])
-		putchar(', ');
+		putchar(a[i]);
+		putchar(',');
+		putchar(' ');
 	}
 	else
 	{
