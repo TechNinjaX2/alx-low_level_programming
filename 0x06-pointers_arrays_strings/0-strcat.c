@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include "main.h"
 
 /**
  * _strcat - concatenates string
@@ -8,22 +10,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char dest[];
 	int i, j;
 	i = 0;
 	j = 0;
 
 	while ( s1[98] != '\0')
 	{
-		s1[i] = s1[j];
 		i++;
-		j++;
 	}
-	i = 0;
-	while ( s2[i] != '\0')
+	while ( s2[j] != '\0')
 	{
-		s1[i] = s2[j + i];
-		i++;
+		 j++;
 	}
+	putchar (s1[i] , s[j]);
 	return;
 }
