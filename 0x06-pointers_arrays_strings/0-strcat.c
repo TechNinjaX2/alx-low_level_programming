@@ -1,22 +1,29 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * _strcat - concatenates string
+ * _strcat - joins strings
  * @dest: destination
- * @src: source
- * Return: str
+ * @str: string
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
-	j = 0;
-	src = strlen(s1);
+    int index = 0, dest_len = 0;
 
-	while ( s2[j] != '\0')
-	{
-		s1[src - 1 + j] = s2[j];
-		j++;
-		dest = s1[src - 1 + j];
-	}
-	putchar(dest);
+    /* Find the length of the destination string*/
+    while (dest[dest_len])
+        dest_len++;
+
+    /* Append the source string to the destination string*/
+    while (src[index])
+    {
+        dest[dest_len + index] = src[index];
+        index++;
+    }
+
+    /* Null terminate the destination string*/
+    dest[dest_len + index] = '\0';
+
+    return dest;
 }
