@@ -20,6 +20,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 		dest = s1[src - 1 + j];
 	}
-	putchar (dest);
-	return;
+	putchar(dest);
 }
