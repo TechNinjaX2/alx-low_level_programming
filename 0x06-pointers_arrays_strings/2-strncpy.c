@@ -9,13 +9,24 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int index = 0, src_len = 0;
+        int i = 0, src_len = 0, j;
+        char s2[6] = "First";
 
-	while (src[index++])
-		src_len++;
-	for (index = 0; src[index] && index < n; index++)
-		dest[index] = src[index];
-	for (index = src_len; index <n; index++)
-		dest[index] = '\0';
-	return (dest);
+        for (j = 0; j < 6; j++)
+        {
+                dest[j] = s2[i];
+        }
+        while (src[i++])
+        {
+                src_len++;
+        }
+        for (i = 0; src[i] && i < n; i++)
+        {
+                dest[i] = src[i];
+        }
+        for (i = src_len; i < n; i++)
+        {
+                dest[i] = '\0';
+        }
+        return (dest);
 }
