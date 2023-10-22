@@ -8,15 +8,7 @@
  */
 int print_last_digit(int i)
 {
-	int r;
-
-	if (i < '0')
-	{
-		i = -i;
-	}
-	else
-	{
-		r = i % 10;
-	}
+	_abs(int i);
+	r = i % 10;
 	return (r);
 }
