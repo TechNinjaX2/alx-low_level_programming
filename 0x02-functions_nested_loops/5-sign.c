@@ -16,17 +16,17 @@ int print_sign(int n)
 	}
 	return (-1);
 }
-int a(int a)
+int a(int n)
 {
-	if (a > '0')
+	if (n > '0')
 	{
 		putchar('+');
 	}
 	return (1);
 }
-int b(int b)
+int b(int n)
 {
-	if (b == '0')
+	if (n == '0')
 	{
 		putchar('0');
 	}

@@ -7,7 +7,7 @@ int _islower(int c);
 void _putchar(char c);
 int _isalpha(int c);
 int print_sign(int n);
-int a(int a);
-int b(int b);
+int a(int n);
+int b(int n);
 
 #endif
