@@ -6,9 +6,10 @@
  *
  * Return: r
  */
-int print_last_digit(int)
+int print_last_digit(int i)
 {
-	i, j;
+	int r;
+
 	if (i < 0)
 	{
 		i = -i;
