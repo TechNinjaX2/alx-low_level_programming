@@ -8,14 +8,13 @@
  */
 int print_last_digit(int i)
 {
-	int r;
+	int r, k;
 
 	if (i < 0)
 	{
 		i = -i;
 	}
 	r = i % 10;
-	putchar(r);
-	putchar(r);
-	return (0);
+	k = r * 11;
+	return (k);
 }
