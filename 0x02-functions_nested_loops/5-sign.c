@@ -15,17 +15,11 @@ int print_sign(int n)
 		b(b);
 	}
 	return (-1);
-}
-int a(int n)
-{
 	if (n > '0')
 	{
 		putchar('+');
 	}
 	return (1);
-}
-int b(int n)
-{
 	if (n == '0')
 	{
 		putchar('0');
