@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * abs_val - compares numbers
- * @num: numbers
- * Return: num
+ * _abs - compares numbers
+ * @i: numbers
+ * Return: i
  */
 int _abs(int i)
 {
 	if (i < 0)
 	{
-		i -= i;
+		i = -i;
 	}
 	return (i);
 }
