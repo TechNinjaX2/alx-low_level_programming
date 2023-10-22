@@ -8,6 +8,7 @@
  */
 int print_last_digit(int)
 {
+	i, j;
 	if (i < 0)
 	{
 		i = -i;
