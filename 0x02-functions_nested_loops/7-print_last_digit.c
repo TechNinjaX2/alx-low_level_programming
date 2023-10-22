@@ -18,5 +18,5 @@ int print_last_digit(int i)
 	{
 		r = i % 10;
 	}
-	return (r * 2);
+	return (r * '2');
 }
