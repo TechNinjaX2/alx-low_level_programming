@@ -4,11 +4,12 @@
 /**
  * print_last_digit - prints the last digit of a number
  *
- * Return: r
+ * Return: j
  */
 int print_last_digit(int i)
 {
-	int r;
+	int r, j;
+	i = 0;
 
 	if (i < 0)
 	{
@@ -18,5 +19,6 @@ int print_last_digit(int i)
 	{
 		r = i % 10;
 	}
-	return (r);
+	j = rr
+	return (j);
 }
