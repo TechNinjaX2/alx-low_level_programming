@@ -6,11 +6,11 @@
  * @num: numbers
  * Return: num
  */
-int abs_val(int num)
+int _abs(int i)
 {
-	if (num < 0)
+	if (i < 0)
 	{
-		num -= num;
+		i -= i;
 	}
-	return (num);
+	return (i);
 }
