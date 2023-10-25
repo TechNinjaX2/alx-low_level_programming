@@ -4,7 +4,7 @@
 /**
  * _strlen_recursion - counts elements in a string
  * @s: the string
- * return: number of elements
+ * Return: number of elements
  */
 int _strlen_recursion(char *s)
 {
