@@ -3,8 +3,9 @@
 
 /**
  * is_prime_number - checks if the number is a prime numbers
- * @n: the number 
+ * @n: the number
  * Return: n
+ * prime - searches for prime number
  */
 int is_prime_number(int n)
 {
