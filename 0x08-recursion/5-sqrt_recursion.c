@@ -27,14 +27,14 @@ int _sqrt(int i, int j)
 	k = j * j;
 	if (i < k)
 	{
-		return(-1);
+		return (-1);
 	}
 	if (k == i)
 	{
-		return j;
+		return (j);
 	}
 	else
 	{
-		return _sqrt(i, j + 1);
+		return (_sqrt(i, j + 1));
 	}
 }
