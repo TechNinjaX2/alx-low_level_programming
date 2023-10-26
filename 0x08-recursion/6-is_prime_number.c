@@ -5,13 +5,18 @@
  * is_prime_number - checks if the number is a prime numbers
  * @n: the number
  * Return: n
- * prime - searches for prime number
  */
 int is_prime_number(int n)
 {
 	n = prime(n, n / 2);
 	return (n);
 }
+/**
+ * prime - searches for prime number
+ * @n: number
+ * @i: divisor
+ * Return: 1 or 0
+ */
 int prime(int n, int i)
 {
 	if (n < 0)
