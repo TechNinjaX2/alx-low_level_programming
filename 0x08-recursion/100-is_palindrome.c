@@ -35,7 +35,7 @@ int palindrome(char *z, int k)
 		}
 		else
 		{
-			return palindrome(z + 1, k + 1);
+			return (palindrome(z + 1, k + 1));
 		}
 	}
 	else
