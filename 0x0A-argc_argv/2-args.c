@@ -5,7 +5,7 @@
  * @argc: the number elements
  * @argv: the array
  * Return: 0
- */`
+ */
 int main(int argc, char *argv[])
 {
 	int i;
