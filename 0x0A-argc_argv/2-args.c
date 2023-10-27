@@ -4,7 +4,7 @@
  * main - prints each argument in its new line
  * @argc: the number elements
  * @argv: the array
- * Return: 0
+ * Return: Always 0(Success)
  */
 int main(int argc, char *argv[])
 {
