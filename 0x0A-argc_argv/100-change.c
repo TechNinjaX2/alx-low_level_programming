@@ -10,12 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int r, z;
-	int s, s1, s2;
-        int t, t1, t2;
-	int u, u1, u2;
-	int v, v1, v2;
-        int w, w1, w2;
+	int r, z, s, s1, s2 t, t1, t2, u, u1, u2, v, v1, v2, w, w1, w2;
 
 	if (argc < 3 && argc > 1)
 	{
