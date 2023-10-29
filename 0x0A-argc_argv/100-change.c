@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	int v, v1, v2;
         int w, w1, w2;
 
-	if (argc < 3)
+	if (argc < 3 && argc > 1)
 	{
 		r = atoi(argv[1]);
 		s = r % 25;
