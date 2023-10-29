@@ -13,8 +13,7 @@ int main(int argc, char *argv[])
 	i = 1;
 	if (argc > 2)
 	{
-		a = *argv[i] - 48;
-		b = *argv[i + 1] - 48;
+
 		r = a * b;
 		printf("%d\n", r);
 	}
