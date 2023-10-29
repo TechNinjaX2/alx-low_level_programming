@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * main - prints result of multiplied arguments
@@ -8,13 +10,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, a, b, r;
+	int a, b, r;
 
-	i = 1;
 	if (argc > 2)
 	{
-
-		r = a * b;
+		a = atoi(argv[1]);
+        	b = atoi(argv[2]);
+        	r = a * b;
 		printf("%d\n", r);
 	}
 	else
