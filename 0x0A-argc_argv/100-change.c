@@ -6,7 +6,7 @@
  * main - find the least number of change
  * @argc: number of arguments
  * @argv: the array
- * Return: Always 0(Success)
+ * Return: Always 0(Success).
  */
 int main(int argc, char *argv[])
 {
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	return (0);
 }
