@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * create array - allocates a memory space for an array through malloc
+ * create_array - allocates a memory space for an array through malloc
  * @size: size of the memory allocation
  * @c: character in the array
  * Return: s
