@@ -19,6 +19,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	if (s[0] == NULL)
+	{
+		return (NULL);
+	}
 	while (s[i] == '\0')
 	{
 		s[i] = str[i];
