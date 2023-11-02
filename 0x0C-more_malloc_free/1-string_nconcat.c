@@ -9,7 +9,7 @@
  * @n: limit to s2's combination
  * Return: s
  */
-char *_string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int i, k, j = 0;
 	char *a, *s;
