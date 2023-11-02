@@ -8,10 +8,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *s, *i;
+	int a = 5;
+	int *s, *i = &a;
 
 	*i = 98;
-	s = malloc(sizeof(char) * 1024);
+	s = malloc(b);
 	if (s == NULL)
 	{
 		free(s);
