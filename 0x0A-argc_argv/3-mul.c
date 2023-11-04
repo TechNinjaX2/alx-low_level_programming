@@ -5,7 +5,7 @@
 /**
  * main - prints result of multiplied arguments
  * @argc: number of elements
- * @argv: the array
+ * @argv[]: the array
  * Return: Always 0(Success)
  */
 int main(int argc, char *argv[])
