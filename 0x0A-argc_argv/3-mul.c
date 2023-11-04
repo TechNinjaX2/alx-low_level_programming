@@ -5,7 +5,7 @@
 /**
  * main - prints result of multiplied arguments
  * @argc: number of elements
- * @argv[]: the array
+ * @argv: the array
  * Return: Always 0(Success)
  */
 int main(int argc, char *argv[])
@@ -19,10 +19,6 @@ int main(int argc, char *argv[])
         	r = a * b;
 		printf("%d\n", r);
 	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
-	return (0);
+	printf("Error\n");
+	return (1);
 }
