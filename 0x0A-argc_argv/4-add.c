@@ -17,10 +17,10 @@ int add(char *v[], int i, int c)
 		return (0);
 	}
 	a = atoi(v[i]);
-	if (a == 0)
+	/*if (a == 0)
 	{
 		return (0);
-	}
+	}*/
 	return (a + add(v, i + 1, c));
 }
 /**
