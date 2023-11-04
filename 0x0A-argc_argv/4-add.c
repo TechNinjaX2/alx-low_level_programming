@@ -31,11 +31,6 @@ int main(int argc, char *argv[])
 
 	i = 1;
 	a = add(argv, i, argc);
-	if (a == 0)
-	{
-		printf("Error\n");
-		return (0);
-	}
 	printf("%d\n", a);
 	return (0);
 }
