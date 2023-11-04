@@ -17,16 +17,11 @@ int main(int argc, char *argv[])
 		a = atoi(argv[1]);
         	b = atoi(argv[2]);
         	r = a * b;
-		putchar(r);
+		printf("%d\n", r);
 	}
 	else
 	{
-		putchar('E');
-		putchar('r');
-		putchar('r');
-		putchar('o');
-		putchar('r');
-		putchar('\n');
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
