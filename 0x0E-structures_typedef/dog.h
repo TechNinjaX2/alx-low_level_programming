@@ -2,10 +2,11 @@
 #define DOG_H
 
 /**
- * dog - define elements
+ * struct dog - define elements
  * @name: a name
  * @age: the age
  * @owner: owner of the dog
+ * Return: nothing
  */
 struct dog
 {
