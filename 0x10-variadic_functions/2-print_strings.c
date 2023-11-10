@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * print_strings - prints strings
@@ -21,17 +22,17 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			a = va_arg(string, const char *);
 			if (i < n - 1)
 			{
-				printf("%s%s", a, separator);
+				printf("%s%s", (a != NULL && strlen(a) > 0) ? a : "(nil)", separator);
 			}
 			else
 			{
-				printf("%s", a);
+				printf("%s", (a != NULL && strlen(a) > 0) ? a : "(nil)");
 			}
 		}
 		else
 		{
 			a = va_arg(string, const char *);
-			printf("%s", a);
+			printf("%s", (a != NULL && strlen(a) > 0) ? a : "(nil)");
 		}
 	}
 	va_end(string);
