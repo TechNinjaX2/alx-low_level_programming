@@ -5,7 +5,7 @@
  * @array: the array which is being searched
  * @size: the size of the array
  * @cmp: the function to be called
- * Return: 0 or -1 or 1
+ * Return: 2 or -1 or 1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -15,10 +15,20 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
-	while (i < size)
+	if (array[i] == '\0')
 	{
-		j = cmp(array[i]);
-		i++;
+		while (i < size)
+		{
+			j = cmp(array[i]);
+			if (j == 1)
+			{
+				return (i);
+			}
+			else
+			{
+				i++;
+			}
+		}
 	}
-	return (j);
+	return (-1);
 }
