@@ -3,5 +3,6 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
+	(void)accept;
         return (*s);
 }

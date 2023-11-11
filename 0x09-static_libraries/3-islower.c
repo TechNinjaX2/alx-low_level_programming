@@ -3,8 +3,6 @@
 
 int _islower(int c)
 {
-        int a;
-
         /*a = 'H';
         b = 'o';
         d = 108;
