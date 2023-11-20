@@ -8,6 +8,13 @@
  *
  * Return: Always 0.
  */
+struct list_s
+{
+    char *str;
+    unsigned int len;
+    struct list_s *next;
+};
+
 int main(void)
 {
     list_t *head;
