@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
- * add_node - adds nodes to the list
+ * add_node_end - adds nodes to the end of the list
  * @head: a struct
- * @str: string to be added
+ * @str: the string to be added
  * Return: new_node
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *new_node = malloc(sizeof(char *));
+	list_t *new_node = malloc(sizeof(list_t));
 
 	if (new_node == NULL)
 	{
