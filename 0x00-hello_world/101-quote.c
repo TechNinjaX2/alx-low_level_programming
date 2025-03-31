@@ -4,7 +4,7 @@
 /**
  * main - prints a string
  *
- * Return : 1 on Success
+ * Return: Always 1
  */
 int main(void)
 {
