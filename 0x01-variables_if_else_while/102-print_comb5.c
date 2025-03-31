@@ -20,16 +20,9 @@ int main(void)
 			{
 				for (d = '0'; d <= '9'; d++)
 				{
-					if (a == c && b == d)
+					if ((c <= a && d <= b) || (a == c && b == d))
 					{
 						continue;
-					}
-					if (c <= a)
-					{
-						if (d <= b)
-						{
-							continue;
-						}
 					}
 					putchar(a);
 					putchar(b);
