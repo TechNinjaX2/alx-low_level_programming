@@ -18,11 +18,18 @@ int main(void)
 		{
 			for (c = a; c <= '9'; c++)
 			{
-				for (d = b; d <= '9'; d++)
+				for (d = '0'; d <= '9'; d++)
 				{
-					if(a == c && b == d)
+					if (a == c && b == d)
 					{
 						continue;
+					}
+					if (c <= a)
+					{
+						if (d <= b)
+						{
+							continue;
+						}
 					}
 					putchar(a);
 					putchar(b);
