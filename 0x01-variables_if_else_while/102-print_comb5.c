@@ -12,20 +12,24 @@ int main(void)
 	int c;
 	int d;
 
-	for(a = '0'; a <= '9'; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for(b = '0'; b <= '9'; b++)
+		for (b = '0'; b <= '9'; b++)
 		{
-			for(c = a; c <= '9'; c++)
+			for (c = a; c <= '9'; c++)
 			{
-				for(d = b + 1; d <= '9'; d++)
+				for (d = b; d <= '9'; d++)
 				{
+					if(a == c && b == d)
+					{
+						continue;
+					}
 					putchar(a);
 					putchar(b);
 					putchar(' ');
 					putchar(c);
 					putchar(d);
-					if(a == '9' && b == '8')
+					if (a == '9' && b == '8')
 					{
 						continue;
 					}
@@ -36,5 +40,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
