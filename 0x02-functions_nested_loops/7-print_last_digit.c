@@ -10,11 +10,7 @@ int print_last_digit_string(int i)
 {
 	int r;
 
-/*	if (i < 0)
-	{
-		i = -i;
-	}
-*/	r = i % 10;
+	r = i % 10;
 
 	return (r);
 }
